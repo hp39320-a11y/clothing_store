@@ -1,0 +1,603 @@
+<html>
+    <head>
+        <style>
+            .home1{
+              
+                background-image: url("images/nature.jpg");
+                
+            }
+            .navul{
+                list-style-type: none;
+                top: 0%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                position:fixed;
+                width: 1365px;
+                background-color:rgb(6, 97, 235);
+                margin-left:-8px;
+            }
+            .navul li{
+                float:left
+            }
+            .navul li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 25px 22px;
+                text-decoration: none;
+                font-size:13px;
+            }
+            .logoimg{
+                height: 80px;
+                width: 100px;
+            }
+            .log1{
+                padding-top:5px;
+                font-size:25px;
+                margin-right:70px;
+            }
+            .home1{
+                height:630px;
+                width:1365px;
+                padding-top: 20px;
+             
+            }
+             .div1h1{
+                font-size: 50px;
+                margin-left:100px;
+                margin-top:140px;
+                color:black;
+            }
+            .explorebtn{
+                background-color: #F9C74F;
+                color: #333;
+                padding: 12px 30px;
+                border-radius: 50px;
+                border: none;
+                align-items: center;
+                display: inline-flex;
+                margin-left: 100px;
+                margin-top:30px ;
+                font-weight: 800;
+                cursor: pointer;
+                margin-right: 80px;
+                
+            }
+            .searchbtn{
+                background-color: #f2f2f2;
+                color: #333;
+                padding: 12px 30px;
+                border-radius: 50px;
+                border: none;
+                align-items: center;
+                display: inline-flex;
+                gap: 8px;
+                font-weight: 800;
+                cursor: pointer;
+            }
+            .contactbtn{
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                margin: 8px 0px;
+                cursor: pointer;
+                margin-left: 20px;
+
+            }
+            .home2{
+                height:630px;
+                width:1365px;
+            }
+            
+            .div2h1{
+                color:rgb(243, 168, 5);
+                margin-top: 80px;
+                font-size: 40px;
+            }
+            .home2h2{
+                color:gray;
+            }
+            .div2h1,h2{
+                margin-left: 140px;
+            }
+            .div2img{
+                height: 350px;
+                width:270px;
+                border-radius:20px;
+                vertical-align: top;
+                cursor: pointer;
+                
+                
+              
+            }
+            .div2p1{
+                color:rgb(7, 111, 248);
+                font-size: 26px;
+                
+                
+            }
+            .div2p2{
+              font-size: 20px;
+            }
+            .container{
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+                margin-left: 140px;
+            }
+            .gallery-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .div2p1,.div2p2{
+                margin: 3%;
+
+            }
+            .home3{
+                height:760px;
+                width:1365px;
+            }
+            .home3h2{
+                margin-top: 110px;
+                color: black;
+            }
+            .home3img{
+                float:right;
+                height: 530px;
+                width: 450px;
+                margin-right:130px;
+                border-radius:22px;
+            }
+            .home3 p{
+                font-size:19px;
+                margin-left:140px;
+                line-height: 1.5;
+            }
+            .displaybtn{
+                width: 65px;
+                height:65px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                margin: 8px 0px;
+                cursor: pointer;
+                margin-left: 20px;
+                background-color: rgb(5, 152, 250);
+                margin-left: 140px;
+
+            }
+            .home3main{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .home3main .text{
+                text-align: left;
+            }
+            .home3main h4{
+                margin: 0;
+                font-size: 20px;
+            }
+            .home3main p{
+                margin: 5px 0 0;
+                font-size: 17px;
+            }
+            .home4{
+                height:730px;
+                width:1365px;
+            }
+            .home4h1{
+                margin-top: 110px;
+                margin-left: 140px;
+                font-size: 40px;
+            }
+            .home4h2{
+                color: rgb(247, 211, 10);
+                font-size: 50px;
+                margin-bottom: 60px;
+            }
+            .home4h1,.home4h2{
+                line-height: 0%;
+            }
+            .home4h4{
+                margin-left: 140px;
+                font-size:15px;
+                color: purple;
+            }
+            .container1{
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+                margin-left: 400px;
+            }
+            .gallery-item1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .home4img{
+                height: 350px;
+                width:300px;
+                border-radius:20px;
+                vertical-align:top;
+                cursor: pointer;
+            }
+            .home5{
+                height:760px;
+                width:1365px;
+            }
+            .home5h2{
+                color: rgb(247, 211, 10);
+                padding-left: 140px;
+                font-size: 50px;
+    
+            }
+             .home5h1{
+                margin-top: 110px;
+                margin-left: 140px;
+                font-size: 40px;
+            }
+            .home5h4{
+                color:gray;
+            }
+            .home5h2,.home5h1{
+                line-height: 20%;
+            }
+            .div5{
+                margin-bottom: 170px;
+            }
+            footer{
+                height:660px;
+                width:1365px;
+                background-color: rgb(1, 1, 46);
+            }
+            .footer1{
+                margin-left: 110px;
+            }
+            .folog1{
+                margin-top:-60px;
+                margin-left:px;
+                color: white;
+            }
+            .footerul {
+                color: white;
+                text-decoration: none;
+            }
+           .footerli {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 15px;
+                line-height:20px;
+            } 
+            .footerul1 {
+                color: white;
+                text-decoration:none;
+                margin-left: 280px;
+                margin-top: -20px;
+                
+            }
+             .footerli1,a {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 17px;
+                line-height:20px;
+                cursor: pointer;
+                
+             }
+             .footerh4{
+
+                color: white;
+                 margin-left: 300px;
+                margin-top: -90px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footerul2 {
+                color: white;
+                text-decoration:none;
+                margin-left:490px;
+                margin-top: -20px;
+                
+            }
+             .footerli2,a {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 17px;
+                line-height:25px;
+                cursor: pointer;
+                
+             }
+             .footerh41{
+
+                color: white;
+                 margin-left:520px;
+                margin-top: -194px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footerh4{
+
+                color: white;
+                 margin-left: 300px;
+                margin-top: -90px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footerul3 {
+                color: white;
+                text-decoration:none;
+                margin-left:790px;
+                margin-top: -20px;
+                
+            }
+             .footerli3,a {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 17px;
+                line-height:25px;
+                cursor: pointer;
+                
+             }
+             .footerh42{
+
+                color: white;
+                 margin-left:820px;
+                margin-top: -164px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footersub{
+                color: white;
+                margin-left:550px ;
+                font-size: 20px;
+             }
+             input[type="text"]{
+                margin-left:550px ;
+                height: 50px;
+                width: 390px;
+                border-radius: 20px;
+                margin-right: 90px;
+             }
+             button{
+                background-color: yellow;
+                color: blue;
+                height:50px ;
+                width: 170px;
+                border-radius: 20px;
+                cursor: pointer;
+
+             }
+             .contactul{
+                text-decoration: none;
+             }
+             .contactli{
+                color: white;
+                text-decoration: none;
+                display: block;
+                font-size: 18px;
+                cursor: pointer;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="home1">
+           
+                 <ul class="navul">
+                    <li><img src="images/logo.png" class="logoimg"></li>
+                    <li class="log1">kerala<br>Holidays</li>
+                    <li ><a href="homepage.html">HOME</a></li>
+                    <li><a href="domestic.html">INDIA-DOMESTIC TOURS</a></li>
+                    <li><a href="internationaltours.html">INRENATIONAL TOURS</a></li>
+                    <li><a href="honeymoonpackage.html">HONEYMOON PACKAGES</a></li>
+                    <li><a href="specialtour.html">SPECIAL TOUR</a></li>
+                     <li><a href="keralatour.html">KERALA TOURS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                    <h1 class="div1h1">Explore the world with us!</h1>
+                    <button class="explorebtn">Explore Now →</button>
+                    <button class="searchbtn">Search Now</button>
+                  
+                     <img class="contactbtn"src="images\whatsapp.png">
+                     <img class="contactbtn" src="images\call1.png">
+                     <img  class="contactbtn" src="images\message1.png">
+
+                     
+        </div>
+         <div class="home2">
+                <h1 class="div2h1">Popular Packages</h1>
+                <h2 class="home2h2">Your dream journey start here</h2>
+                <div class="container">
+                <div class="gallery-item">
+                <img class="div2img"src= "images\turkey.jpg">
+                <p class="div2p1">Turkey</p>
+                <p class="div2p2">5 Days-4-Nights-Turkey tour packages</p>
+                <p class="div2p2">Inclusion 🚊 🚘</p>
+                </div>
+                 <div class="gallery-item">
+                <img class="div2img"src= "images\dubai.jpg">
+                <p class="div2p1">Dubai</p>
+                <p class="div2p2">5 Days-4-Nights-Dubai tour packages</p>
+                <p class="div2p2">Inclusion 🚊 🚘</p>
+                </div>
+                <div class="gallery-item">
+                    <img class="div2img"src="images\andaman.jpg">
+                    <p class="div2p1">Andaman And Nicobar Islands</p>
+                    <p class="div2p2">5 Days-4-Nights-Andaman And Nicobar Islands tour packages</p>
+                    <p class="div2p2">Inclusion 🚊 🚘</p>
+                </div>
+                <div class="gallery-item">
+                    <img class="div2img"src="images\uk.jpg">
+                    <p class="div2p1">United Kingdom,Freance,Belgium...</p>
+                     <p class="div2p2">GRAND WONDERS OF UROPE</p>
+                </div>
+                
+         </div>
+         <div class="home3">
+            <h2 class="home3h2">Best Travel Agency in Kerala</h2>
+            <h2 class="home2h2">Why Us</h2>
+          
+            <img class="home3img"src="images\home3.jpg">
+              <div>
+            <p>We take you to the exotic destinations on an unbelievable budget. We are a group of youthful
+               and passionate explorers with an uncompromising love for traveling. We offer luxurious and 
+               economical tailor-made holidays, with great attention to detail, and provide an unparalleled and
+               memorable experience to our customers. As a Best Travel Agency In Kerala, We have a number of
+               predefined tours to all the famous destinations in Kerala. We are known to follow world-class
+               standards and superior quality of service. We help you to plan your travel itineraries and offer
+               personalized service for customers with utmost care. Make your holidays hassle-free and gleeful
+               with Lumiere holidays
+            </p>
+            </div>
+            <div class="home3main">
+            <img class="displaybtn"src="images\safe.png">
+            <div class="text">
+                <h4 >Safe Travelling</h4>
+            <p>We provide a positive work environment that makes our employees feel
+                We provide a positive work environment that makes our employees feel
+            </p>
+            </div>
+            </div>
+            <div class="home3main">
+            <img class="displaybtn"src="images\money.png">
+            <div class="text">
+            <h4>Affordable Price</h4>
+            <p>Customer satisfaction is our prime motto and with our superior quality
+                services, we do not let any scope for worries.
+            </p>
+            </div>
+            </div>
+             <div class="home3main">
+            <img class="displaybtn"src="images\accomadation.png">
+            <div class="text">
+            <h4>Comfort Accommodation</h4>
+            <p>We are a team with the full passion to create true, reasonable and
+                environmentally sustainable business to host travellers from the various
+                corners of the world to deliver an outstanding customer service.
+            </p>
+            </div>
+             </div>
+            </div>
+            <div class="home4">
+                <h1 class="home4h1">Hostelling</h1>
+                <h2 class="home4h2">Packages</h2>
+                <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+                <div class="container1">
+                <div class="gallery-item1">
+                <img class="home4img"src= "images\munnar.jpg">
+                <p class="div2p1">Munnar,Thekkady</p>
+                <p class="div2p2">2 NIGHTS 3 DAYS MUNNAR AND THEKKADY</p>
+                </div>
+                 <div class="gallery-item1">
+                <img class="home4img"src= "images\allappy.png">
+                <p class="div2p1">Munnar,Alleppy Houseboa...</p>
+                <p class="div2p2">3 NIGHTS 4 DAYS MUNNAR ALLEPPY HOUSEBOAT</p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home4img"src= "images\kochi.jpg">
+                <p class="div2p1">Kochi,Munnar,Alleppy Houseboa...</p>
+                <p class="div2p2">4 NIGHTS 5 DAYS MUNNAR THEKK HOUSEBOAT</p>
+                </div>
+                </div>
+                <div class="home5">
+                    <h1 class="home5h1">International Tour</h1>
+                    <h1 class="home5h2">Packages</h1>
+                    <h2 class="home5h4">Popular Packages</h2>
+                    <div class="container">
+                    <div class="gallery-item">
+                    <img class="div2img"src= "images\vietnam.jpg">
+                    <p class="div2p1">Vietnam</p>
+                    <p class="div2p2">4 NIGHTS 5 DAYS Vietnam Tour Package</p>
+                    <p class="div2p2">Inclusion 🚊 🚘</p>
+                    </div>
+                    <div class="gallery-item">
+                    <img class="div2img"src= "images\nepal.jpg">
+                    <p class="div2p1">Himalaya</p>
+                    <p class="div2p2">12 NIGHTS 13 DAYS Vip Himalayan Tour Package</p>
+                    <p class="div2p2">Inclusion 🚊 🚘</p>
+                    </div>
+                    <div class="gallery-item">
+                    <img class="div2img"src= "images\nepal1.jpg">
+                    <p class="div2p1">Nepal</p>
+                    <p class="div2p2">11 NIGHTS 12 DAYS Nepal Tour Package</p>
+                    <p class="div2p2">Inclusion 🚊 🚘</p>
+                    </div>
+                    <div class="gallery-item">
+                    <img class="div2img"src= "images\nepal2.jpg">
+                    <p class="div2p1">Nepal</p>
+                    <p class="div2p2">12 NIGHTS 13 DAYS Nepal Tour Package</p>
+                    <p class="div2p2">Inclusion 🚊 🚘</p>
+                    <div class="div5"></div>
+                    </div>
+
+                </div>
+                <footer>
+                    <div class="footer1">
+                    <img src="images\logo.png" class="logoimg">
+                    <h2 class="folog1">kerala<br>Holidays</h2>
+                    <ul class="tefoorul">
+                        <li class="footerli">52/3183, First Floor,</li>
+                        <li class="footerli">Tharayil Chambers, Service Rd,</li>
+                        <li class="footerli">Vyttila, Kochi,</li>
+                        <li class="footerli">Ernakulam, Kerala 682019</li>
+                    </ul>
+                     <div class="footermain">
+                    <h4 class="footerh4">Quick Links</h4>
+                    <ul class="footerul1">
+                        <li class="footerli1"><a href="">Home</a></li>
+                        <li class="footerli1"><a href="">About US</a></li>
+                        <li class="footerli1"><a href="">Blog</a></li>
+                        <li class="footerli1"><a href="">News</a></li>
+                        <li class="footerli1"><a href="">Contact Us</a></li>
+                        <li class="footerli1"><a href="">Privacy Policy</a></li>
+                    </ul>
+                     </div>
+                      <div class="footermain">
+                    <h4 class="footerh41">Tour & Packages</h4>
+                    <ul class="footerul2">
+                        <li class="footerli2"><a href="">South India Tours</a></li>
+                        <li class="footerli2"><a href="">North India Tours</a></li>
+                        <li class="footerli2"><a href="">North East Tours</a></li>
+                        <li class="footerli2"><a href="">Inrenational Tours</a></li>
+                        <li class="footerli2"><a href="">Honeymoon Packages</a></li>
+                    </ul>
+                    </div>
+                     <div class="footermain"></div>
+                    <h4 class="footerh42">Helpful Links</h4>
+                    <ul class="footerul3">
+                        <li class="footerli3"><a href="">Reservation Policy</a></li>
+                        <li class="footerli3"><a href="">Cancellation Policy</a></li>
+                        <li class="footerli3"><a href="">Terms & Condition</a></li>
+                        <li class="footerli3"><a href="">Payment Policy</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                    <ul class="contactul">
+                    <li class="contactli">🕻 +91 9046783245</li>
+                    <li class="contactli">✉︎ keralaholiday@gmail.com</label>
+                    </ul>
+                    <h4 class="footersub">Subscribe</h4>
+                    <input type="text"name="emai"placeholder="Enter email address">
+                    <button>Subscribe</button>
+                      <hr>
+                    </div>
+
+                    
+                </footer>
+         </div>
+    </body>
+</html>

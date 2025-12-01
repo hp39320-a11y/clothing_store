@@ -1,0 +1,612 @@
+<html>
+    <head>
+        <style>
+
+            .navul{
+                list-style-type: none;
+                top: 0%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                position:fixed;
+                width: 1365px;
+                background-color:rgb(6, 97, 235);
+                margin-left:-8px;
+            }
+            .navul li{
+                float:left
+            }
+            .navul li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 25px 22px;
+                text-decoration: none;
+                font-size:13px;
+            }
+            .logoimg{
+                height: 80px;
+                width: 100px;
+            }
+            .log1{
+                padding-top:5px;
+                font-size:25px;
+                margin-right:70px;
+            }
+            .bgimg1{
+                margin-left: -20px;
+                height:480px;
+                width:1365px;
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 530px;
+            }
+            .overlay-text {
+                position: absolute; 
+                margin-top:10px; 
+                left: 48%; 
+                transform: translate(-50%, -50%); 
+                color: white; 
+                font-size: 22px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .home2{
+                height:630px;
+                width:1365px;
+                padding-top: 20px;
+             
+            }
+            .home2h1{
+                margin-top: 200px;
+                margin-left:-920px;
+                font-size: 40px;
+            }
+            .home2h2{
+                color:rgb(243, 168, 5);
+                font-size: 40px;
+                margin-left: 140px;
+                margin-top:-540px;
+            }
+            .container1{
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+                margin-left: 480px;
+                margin-top: 80px;
+            }
+            .gallery-item1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .home1img{
+                height: 310px;
+                width:260px;
+                border-radius:20px;
+                vertical-align:top;
+                cursor: pointer;
+                 margin-top:-180px;
+                 
+            }
+             .div2p1{
+                color:rgb(7, 111, 248);
+                font-size: 24px;
+                
+            }
+            .div2p2{
+              font-size: 15px;
+              margin-bottom: 800px;
+            }
+            .home1p{
+                margin-top:-60px;
+                
+                margin-left: -340px;
+            }
+             .home3{
+                height:830px;
+                width:1365px;
+                padding-top: 20px;
+             
+            }
+            .home3h1{
+                margin-left:-930px;
+                font-size: 40px;
+                margin-top: -600px;
+            }
+            .home4h4{
+                margin-left: 140px;
+                font-size:15px;
+                color: purple;
+            }.home4{
+                height:630px;
+                width:1365px;
+                padding-top: 20px;
+             
+            }
+            .home5{
+                height:630px;
+                width:1365px;
+                padding-top: 20px;
+             
+            }
+            
+            
+            .home7img{
+                height: 310px;
+                width:260px;
+                border-radius:20px;
+                vertical-align:top;
+                cursor: pointer;
+                 margin-top:-180px;
+                 margin-right: 460px;
+            }
+            .home7p1{
+                color:rgb(7, 111, 248);
+                font-size: 24px;
+                margin-right: 440px;
+                
+            }
+            .home7p2{
+              font-size: 15px;
+              margin-bottom: 800px;
+              margin-right:410px ;
+            }
+            .home6img{
+                height: 310px;
+                width:260px;
+                border-radius:20px;
+                vertical-align:top;
+                cursor: pointer;
+                 margin-top:-180px;
+                 margin-right: 210px;
+            }
+            .home6p1{
+                color:rgb(7, 111, 248);
+                font-size: 24px;
+                margin-right: 110px;
+                
+            }
+            .home6p2{
+              font-size: 15px;
+              margin-bottom: 800px;
+              margin-right:140px ;
+            }
+             footer{
+                margin-top: -500px;
+                height:660px;
+                width:1365px;
+                background-color: rgb(1, 1, 46);
+            }
+            .footer1{
+                margin-left: 110px;
+            }
+            .folog1{
+                margin-top:-60px;
+                margin-left:90px;
+                color: white;
+            }
+            .footerul {
+                color: white;
+                text-decoration: none;
+            }
+           .footerli {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 15px;
+                line-height:20px;
+            } 
+            .footerul1 {
+                color: white;
+                text-decoration:none;
+                margin-left: 280px;
+                margin-top: -20px;
+                
+            }
+             .footerli1,a {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 17px;
+                line-height:20px;
+                cursor: pointer;
+                
+             }
+             .footerh4{
+
+                color: white;
+                 margin-left: 300px;
+                margin-top: -90px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footerul2 {
+                color: white;
+                text-decoration:none;
+                margin-left:490px;
+                margin-top: -20px;
+                
+            }
+             .footerli2,a {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 17px;
+                line-height:25px;
+                cursor: pointer;
+                
+             }
+             .footerh41{
+
+                color: white;
+                 margin-left:520px;
+                margin-top: -194px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footerh4{
+
+                color: white;
+                 margin-left: 300px;
+                margin-top: -90px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footerul3 {
+                color: white;
+                text-decoration:none;
+                margin-left:790px;
+                margin-top: -20px;
+                
+            }
+             .footerli3,a {
+                color: white;
+                text-decoration:none;
+                display: block;
+                font-size: 17px;
+                line-height:25px;
+                cursor: pointer;
+                
+             }
+             .footerh42{
+
+                color: white;
+                 margin-left:820px;
+                margin-top: -164px;
+                font-size: 20px;
+                text-decoration: underline;
+                
+             }
+             .footersub{
+                color: white;
+                margin-left:550px ;
+                font-size: 20px;
+             }
+             input[type="text"]{
+                margin-left:550px ;
+                height: 50px;
+                width: 390px;
+                border-radius: 20px;
+                margin-right: 90px;
+             }
+             button{
+                background-color: yellow;
+                color: blue;
+                height:50px ;
+                width: 170px;
+                border-radius: 20px;
+                cursor: pointer;
+
+             }
+             .contactul{
+                text-decoration: none;
+             }
+             .contactli{
+                color: white;
+                text-decoration: none;
+                display: block;
+                font-size: 18px;
+                cursor: pointer;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="home1">
+           
+                 <ul class="navul">
+                    <li><img src="images\logo.png" class="logoimg"></li>
+                    <li class="log1">kerala<br>Holidays</li>
+                    <li ><a href="homepage.html">HOME</a></li>
+                    <li><a href="domestic.html">INDIA-DOMESTIC TOURS</a></li>
+                    <li><a href="internationaltours.html">INRENATIONAL TOURS</a></li>
+                    <li><a href="honeymoonpackage.html">HONEYMOON PACKAGES</a></li>
+                     <li><a href="specialtour.html">SPECIAL TOUR</a></li>
+                     <li><a href="">KERALA TOURS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                    <img class="bgimg1" src="images\domesticbg-1.jpg"> 
+                    <div class="overlay-text">
+                        <h1>India-Domestic tours</h1>
+                    </div>
+        
+        <div class="home2">
+            <h1 class="home2h1">Alleppey<br>Houseboat</h1>
+            <h2 class="home2h2">Packages</h2>
+             <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Alleppey (Alappuzha) is a beautiful coastal city in Kerala, India, known for its serene
+                backwaters, houseboats, and beaches. It is often called the "Venice of the East" due to its
+                network of canals and lagoons.
+                    </p>
+                   
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\kochi-alleppy.jpg">
+                <p class="div2p1">Munnar,Thekkady</p>
+                <p class="div2p2">11 NIGHTS 12 DAYS KOCHI ALLEPPY MUNNAR THEKKADY COIMBATHORE OOTY MYSORE
+                    BANGALOORE
+                </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\athirappilly.png">
+                <p class="div2p1">Kochi,Guruvayoor,Alleppy Housboa...</p>
+                <p class="div2p2">10 NIGHTS 11 DAYS KOCHI GURUVAYOOR ALLEPPY HOUSEBOAT MUNNAR THEKKADY 
+                    MADHURAI RAMESHWARAM KANYAKUMARI KOVALAM</p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\athirappilly2.jpeg">
+                <p class="div2p1">Kochi,Munnar,Thekkady,Alleppy...</p>
+                <p class="div2p2">6 NIGHTS 7 DAYS KOCHI ATHIRAPPILLY  MUNNAR THEKKADY 
+                    ALLEPPY </p>
+                </div>
+        </div>
+        <div class="home3">
+            <h1 class="home3h1">Munnar</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Munnar is a picturesque hill station located in the Idukki 
+                    district of Kerala, India. Known for its lush green tea plantations, misty mountains, and cool climate,
+                     it is a popular destination for honeymooners, nature lovers, and adventure seekers.
+            </p>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\kochi-alleppy.jpg">
+                <p class="div2p1">Munnar,Thekkady</p>
+                <p class="div2p2">11 NIGHTS 12 DAYS KOCHI ALLEPPY MUNNAR THEKKADY COIMBATHORE OOTY MYSORE
+                    BANGALOORE
+                </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\muunar1.jpeg">
+                <p class="div2p1">Munnar</p>
+                <p class="div2p2">2 NIGHTS 3 DAYS MUNNAR</p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\thekkadi.jpeg">
+                <p class="div2p1">Munnar,Thekkady,Allepp Houseboat</p>
+                <p class="div2p2">5 NIGHTS 6 DAYS  MUNNAR THEKKADY 
+                    ALLEPPY </p>
+                </div>
+        </div>
+        <div class="home4">
+<h1 class="home3h1">Thekkadi</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">
+                    Thekkady, located in the Idukki district of Kerala, is a paradise for nature lovers and
+                    wildlife enthusiasts. Home to the famous Periyar Wildlife Sanctuary, Thekkady offers a
+                    unique blend of lush forests, spice plantations, serene lakes, and adventurous activities. It is
+                    one of the best places in India to experience eco-tourism, jungle safaris, and elephant rides.
+                </p>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\munnar-thekkadi.jpg">
+                <p class="div2p1">Munnar,Thekkady</p>
+                <p class="div2p2">2 NIGHTS 3 DAYS  MUNNAR THEKKADY</p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\vagamone.jpeg">
+                <p class="div2p1">Thekkady,Vagamone</p>
+                <p class="div2p2">2 NIGHTS 3 DAYS THEKKADY VAGAMONE</p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\munnar-thekkadi1.jpg">
+                <p class="div2p1">Munnar,Thekkady</p>
+                <p class="div2p2">3 NIGHTS 4 DAYS  MUNNAR THEKKADY VAGAMONE </p>
+        </div>
+            </div>
+         <div class="home5">
+            <h1 class="home3h1">Mysore</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Mysore, located in Karnataka, is a city rich in history and
+                     culture, known for its royal heritage and stunning architecture. The iconic
+                      Mysore Palace, with its grand design and intricate artwork, stands as a testament 
+                      to the city's royal past. Mysore is also famous for its annual Dussehra festival, a 
+                      grand celebration of art, culture, and tradition. Other attractions include
+                      the Chamundeshwari Temple atop Chamundi Hill, the serene Brindavan Gardens,
+                      and the Mysore Zoo.
+                    </p>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\mysore.jpg">
+                <p class="div2p1">Ooty,Mysore</p>
+                <p class="div2p2">4 NIGHTS 5 DAYS  OOTY MYSORE
+
+                </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\ooty.jpeg">
+                <p class="div2p1">Ooty,Mysore,Bangalore</p>
+                <p class="div2p2">5 NIGHTS 6 DAYS OOTY MYSORE BANGALORE</p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\coimbathore.jpeg">
+                <p class="div2p1">coimbathore,Ooty,Mysore,Bangalore</p>
+                <p class="div2p2">6 NIGHTS 7 DAYS  COIMBATHORE OOTY MYSORE BANGALORE </p>
+                </div>
+        </div>
+        <div class="home6">
+            <h1 class="home3h1">Jaipur</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Jaipur, the enchanting Pink City of Rajasthan, dazzles visitors
+                     with its rose-hued palaces and bustling bazaars. As part of India's Golden Triangle, 
+                     this royal capital showcases magnificent architectural wonders like Amber Fort and Hawa 
+                     Mahal alongside vibrant cultural traditions. Experience regal splendor, exquisite handicrafts,
+                      and colorful festivals in this UNESCO World Heritage city that perfectly blends
+                     centuries-old heritage with modern urban energy.
+
+                    </p>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\delhi.jpeg">
+                <p class="div2p1">Jaipure,Agra,Delhi</p>
+                <p class="div2p2">5 NIGHTS 5 DAYS Golden Triangle Tour Package
+
+                </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\shimla.jpg">
+                <p class="div2p1">Delhi,Shimla,Manali,Agra,Jaipur</p>
+                <p class="div2p2">10 NIGHTS 11 DAYS Tour package Golden Triangle shimla-manali </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home1img"src= "images\rajasthan.jpg">
+                <p class="div2p1">Udaipur,Jaipur,Pushkar</p>
+                <p class="div2p2">4 NIGHTS 5 DAYS Rajasthan Tour Package </p>
+                </div>
+        </div>
+        <div class="home6">
+            <h1 class="home3h1">Goa</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Goa, India's premier beach destination, is
+                     famous <br>for its golden sands, vibrant nightlife Portuguese <br>heritage, and water sports. 
+                     Discover Goa with <br> curated tour packages for an unforgettable coastal getaway.
+
+                    </p>
+                <div class="gallery-item1">
+                <img class="home7img"src= "images\goa.jpg">
+                <p class="home7p1">GOA</p>
+                <p class="home7p2">3 NIGHTS 4 DAYS Goa Tour Package
+
+                </p>
+                </div>
+        </div>
+        <div class="home7">
+            <h1 class="home3h1">Srinagar</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Jammu and Kashmir's summer capital, Srinagar, is a stunning city 
+                    situated in the Kashmir Valley. The city is frequently dubbed 
+                    the "Venice of the East" due to its magnificent Dal Lake, houseboats, and Mughal 
+                    gardens.With its wealth of culture and snow-capped mountains, Srinagar is a
+                     paradise for nature lovers and those looking for tranquility.
+
+
+                    </p>
+                <div class="gallery-item1">
+                <img class="home6img"src= "images\pahalgam.jpg">
+                <p class="home6p1">Srinagar,Pahalgam,Gulmarg,Sonamarg</p>
+                <p class="home6p2">5 NIGHTS 6 DAYS  Kashmir Tour Package
+
+                </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home6img"src= "images\delhi.jpeg">
+                <p class="home6p1">Srinagar,Pahalgam,Gulmarg</p>
+                <p class="home6p2">4 NIGHTS 5 DAYS Kashmir Tour Package
+                </p>
+                </div>
+        </div>
+         <div class="home7">
+            <h1 class="home3h1">Lakshadweep</h1>
+            <h2 class="home2h2">Packages</h2>
+            <h4 class="home4h4">EXPLORE ALL PACKAGES</h4>
+            <div class="container1">
+                <p class="home1p">Lakshadweep is India's hidden island paradise in the Arabian Sea,
+                     known for its turquoise lagoons, white-sand beaches, coral reefs, and
+                     peaceful atmosphere. Perfect for nature lovers and honeymooners, Lakshadweep offers a
+                     unique tropical escape away from the crowds
+
+                    </p>
+                <div class="gallery-item1">
+                <img class="home6img"src= "images\lakshadweep1.jpeg">
+                <p class="home6p1">Lakshadweep</p>
+                <p class="home6p2">4 NIGHTS 5 DAYS SAMUDHRAM Package
+
+                </p>
+                </div>
+                <div class="gallery-item1">
+                <img class="home6img"src= "images\lakshadweep2.jpeg">
+                <p class="home6p1">Lakshadweep</p>
+                <p class="home6p2">3 NIGHTS 4 DAYS Bangaram Tour Package
+                </p>
+                </div>
+        </div>
+         <footer>
+                    <div class="footer1">
+                    <img src="images\logo.png" class="logoimg">
+                    <h2 class="folog1">kerala<br>Holidays</h2>
+                    <ul class="tefoorul">
+                        <li class="footerli">52/3183, First Floor,</li>
+                        <li class="footerli">Tharayil Chambers, Service Rd,</li>
+                        <li class="footerli">Vyttila, Kochi,</li>
+                        <li class="footerli">Ernakulam, Kerala 682019</li>
+                    </ul>
+                     <div class="footermain">
+                    <h4 class="footerh4">Quick Links</h4>
+                    <ul class="footerul1">
+                        <li class="footerli1"><a href="">Home</a></li>
+                        <li class="footerli1"><a href="">About US</a></li>
+                        <li class="footerli1"><a href="">Blog</a></li>
+                        <li class="footerli1"><a href="">News</a></li>
+                        <li class="footerli1"><a href="">Contact Us</a></li>
+                        <li class="footerli1"><a href="">Privacy Policy</a></li>
+                    </ul>
+                     </div>
+                      <div class="footermain">
+                    <h4 class="footerh41">Tour & Packages</h4>
+                    <ul class="footerul2">
+                        <li class="footerli2"><a href="">South India Tours</a></li>
+                        <li class="footerli2"><a href="">North India Tours</a></li>
+                        <li class="footerli2"><a href="">North East Tours</a></li>
+                        <li class="footerli2"><a href="">Inrenational Tours</a></li>
+                        <li class="footerli2"><a href="">Honeymoon Packages</a></li>
+                    </ul>
+                    </div>
+                     <div class="footermain"></div>
+                    <h4 class="footerh42">Helpful Links</h4>
+                    <ul class="footerul3">
+                        <li class="footerli3"><a href="">Reservation Policy</a></li>
+                        <li class="footerli3"><a href="">Cancellation Policy</a></li>
+                        <li class="footerli3"><a href="">Terms & Condition</a></li>
+                        <li class="footerli3"><a href="">Payment Policy</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                    <ul class="contactul">
+                    <li class="contactli">🕻 +91 9046783245</li>
+                    <li class="contactli">✉︎ keralaholiday@gmail.com</label>
+                    </ul>
+                    <h4 class="footersub">Subscribe</h4>
+                    <input type="text"name="emai"placeholder="Enter email address">
+                    <button>Subscribe</button>
+                      <hr>
+                    </div>
+
+                    
+                </footer>
+        </div>
+    </body>
+</html>
