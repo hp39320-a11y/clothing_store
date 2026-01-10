@@ -1,0 +1,101 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart | Fashion Hub</title>
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Fashion Hub</div>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="mens_collection.html">Men</a>
+        <a href="womens_collections.html">Women</a>
+        <a href="kids_collection.html">Kids</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart">
+        <span class="cart-icon">🛒</span>
+        </a>
+    </nav>
+    </header>
+
+    <section class="cart-section">
+        <h1>Your Shopping Cart</h1>
+
+        <table class="t1">
+            <thead>
+                <tr>
+                  
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Cart items will be injected here -->
+            </tbody>
+        </table>
+
+        <h3 id="grandTotal">Grand Total : ₹0</h3>
+    </section>
+
+    
+
+    <script src="./js/cart.js"></script>
+    <script>
+        // Load cart when page opens
+        window.onload = function() {
+            loadCart();
+            updateCartCount();
+        };
+    </script>
+    <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Fashion Hub</h3>
+      <p>Premium fashion for every style. Discover confidence, comfort, and class.</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mens_collection.html">Men</a></li>
+        <li><a href="womens_collections.html">Women</a></li>
+        <li><a href="kids_collection.html">Kids</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Customer Care</h4>
+      <ul>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Contact</h4>
+      <p>Email: support@goddclothing.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Godd Clothing Store. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

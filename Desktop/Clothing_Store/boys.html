@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Boys | Clothing Store</title>
+    <link rel="stylesheet" href="css/sub_pages.css">
+    
+    </head>
+    <body>
+        <header>
+    <div class="logo">Fashion Hub</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mens_collection.html">Men</a>
+        <a href="womens_collections.html">Women</a>
+        <a href="kids_collection.html"class="active">Kids</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart">
+        <span class="cart-icon">🛒</span>
+        </a>
+    </nav>
+</header>
+<section class="hero">
+    <h1>Boy's Dress</h1>
+    <p>Premium Dress for every occasion</p>
+</section>
+<div class="categories">
+    <a href="boys.html">Boys</a>
+    <a href="girls.html">Girls</a>
+    <a href="baby.html">Babys</a>
+</div>
+<section class="products"id=productList>
+
+    </section>
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Fashion Hub</h3>
+      <p>Premium fashion for every style. Discover confidence, comfort, and class.</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mens_collection.html">Men</a></li>
+        <li><a href="womens_collections.html">Women</a></li>
+        <li><a href="kids_collection.html">Kids</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Customer Care</h4>
+      <ul>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Contact</h4>
+      <p>Email: support@goddclothing.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Godd Clothing Store. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<!-- ------------------------------------------JS_File------------------------------------------------ -->
+
+
+
+<script src="./js/product.js"></script>
+<script src="./js/cart.js"></script>
+
+
+
+
+<script>
+  const productList=document.getElementById("productList");
+
+  const cloth = products.filter(
+    product => product.category ==="Boys"
+  );
+
+cloth.forEach(product => {
+  productList.innerHTML +=`
+    <div class="product">
+      <img src="${product.image}" alt="${product.name}">
+      <h3>${product.name}</h3>
+      <p>Boys</p>
+      <span>₹${product.price}</span>
+      <button onclick="addToCart(
+        ${product.id},
+        '${product.name}',
+        '${product.category}',
+        ${product.price}
+
+      )">
+      add to cart
+    </button>
+    </div>`
+});
+
+        // Load cart when page opens
+        window.onload = function() {
+            loadCart();
+            updateCartCount();
+        };
+    </script>
+
+
+    </body>
+</html>

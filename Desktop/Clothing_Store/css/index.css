@@ -1,0 +1,146 @@
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    background: #111;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    margin-top: 80px; 
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 400px;
+    height: 370px;
+    background-color: #333;
+}
+.product button{
+
+    padding-top: 20px;
+    padding: 20px 85px;
+    padding-bottom: 30px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.product button a{
+  text-decoration: none;
+  color:#f4f4f4
+}
+.product img {
+   height: 200px;
+   width: 240px;
+   padding-top: 20px;
+   padding-right: 30px;
+   margin-left: 50px;
+   padding-bottom: 20px;
+}
+h3{
+  padding-top: 20px;
+  font-size: 40px;
+  color: aqua;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 0 20px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+.footer-box h3,
+.footer-box h4 {
+  margin-bottom: 15px;
+  color: #f5c518;
+}
+
+.footer-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-box ul {
+  list-style: none;
+}
+
+.footer-box ul li {
+  margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-box ul li a:hover {
+  color: #f5c518;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  font-size: 13px;
+  color: #aaa;
+}
+.cart {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart-icon {
+  font-size: 24px;
+}
